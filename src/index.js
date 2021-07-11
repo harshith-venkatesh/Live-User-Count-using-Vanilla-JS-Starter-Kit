@@ -107,7 +107,7 @@ function liveStream(dataInput) {
 }
 
 function createMockMessage() {
-  const newValue = Math.floor(Math.random() * 10);
+  const newValue = Math.floor(Math.random() * 100);
   const msg = {};
   if (newValue % 7 === 0) {
     msg.showNow = true;
