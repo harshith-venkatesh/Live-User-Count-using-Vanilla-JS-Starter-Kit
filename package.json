@@ -1,0 +1,55 @@
+{
+  "name": "javascript-webpack-kit",
+  "version": "1.0.0",
+  "description": "Vanilla JS Project including webpack features",
+  "main": "index.js",
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  },
+  "browserslist": "> 0.20%, not dead",
+  "scripts": {
+    "build": "webpack --config webpack.prod.js",
+    "start": "webpack serve --open --config webpack.dev.js",
+    "lint": "eslint --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harshith-venkatesh/JS-Webpack-Kit.git"
+  },
+  "keywords": [
+    "Javascript",
+    "webpack",
+    "vanillaJS",
+    "bundler"
+  ],
+  "author": "Harshith Venkatesh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harshith-venkatesh/JS-Webpack-Kit/issues"
+  },
+  "homepage": "https://github.com/harshith-venkatesh/JS-Webpack-Kit#readme",
+  "dependencies": {
+    "eslint-webpack-plugin": "^2.5.4",
+    "html-webpack-plugin": "^5.3.2",
+    "lodash": "^4.17.21",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-merge": "^5.8.0",
+    "eslint-plugin-prettier": "^3.4.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.4",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.2.6",
+    "eslint": "^7.2.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "prettier": "^2.3.2",
+    "style-loader": "^3.0.0",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.2"
+  }
+}
